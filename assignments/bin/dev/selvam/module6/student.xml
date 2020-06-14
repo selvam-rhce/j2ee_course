@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+	<student>
+		<studentId>1</studentId>
+		<name>selvam</name>
+		<std>1</std>
+		<gender>male</gender>
+		<mark>101</mark>
+		<address>kalavasal, madurai</address>
+	</student>
+	<student>
+		<studentId>2</studentId>
+		<name>mallika</name>
+		<std>1</std>
+		<gender>female</gender>
+		<mark>101</mark>
+		<address>harveypatti, madurai</address>
+	</student>
+	<student>
+		<studentId>3</studentId>
+		<name>aaranya</name>
+		<std>2</std>
+		<gender>female</gender>
+		<mark>103</mark>
+		<address>kazhakootam, trivandrum</address>
+	</student>
+</students>
