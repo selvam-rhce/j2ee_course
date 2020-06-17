@@ -1,3 +1,7 @@
 /.metadata/
 *.*jar
 *.*class
+*.settings
+*Servers
+.classpath
+.project
