@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.orm.hibernate5.HibernateTemplate;
+import org.springframework.transaction.annotation.Transactional;
 
 public class MobilePhoneDAOImpl implements MobilePhoneDAO {
 
@@ -18,12 +19,13 @@ public class MobilePhoneDAOImpl implements MobilePhoneDAO {
 		this.ht = ht;
 	}
 
+	@Transactional(readOnly = false)
 	@Override
 	public void saveMobile(Mobile e) {
 		ht.save(e);
-
 	}
 
+	@Transactional(readOnly = false)
 	@Override
 	public void updateMobile(Mobile e) {
 		ht.update(e);
